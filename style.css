@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+   background: url("image/bg.jpg"); 
+   min-height: 100vh;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.board{
+    min-width: 70vmin;
+    min-height: 70vmin;
+    background: rgb(73, 56, 41);
+    opacity: 90%;
+    padding: 10;
+    margin: 0;
+    border-radius: 10px;
+}
+
+#table_body{
+    background-size: contain;
+    width: 71vmin;
+    height: 71vmin;
+}
+
+
+
+.cell{
+
+    position: sticky;
+    background-color: rgb(233, 185, 143);
+    border-radius: 5px;
+    min-width: 10vmin;
+    min-height: 10vmin;
+    text-align: center;
+    font-size: 5vmin;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: bold;
+    color: rgb(54, 47, 40);
+}
+
+.empty{
+    
+    color:rgb(233, 185, 143) ;
+}
+
+#score_tile{
+    top: 9px;
+    right: 200px;
+    font-size: 39px;
+    font-size: 50px;
+    position: absolute;
+    color: grey;
+    /* font-family: 'Mochiy Pop P One', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
